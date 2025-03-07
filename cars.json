@@ -10,17 +10,7 @@
         "mileage": "30 Miles",
         "year": "2023"
     },
-    {
-        "id": 2,
-        "name": "T-Cross Momentum SUV 4WD",
-        "description": "4.0L PowerPulse Momentum SUV 4WD...",
-        "price": "$17,000",
-        "image": "T-Cross.jpg",
-        "fuel": "Petrol",
-        "transmission": "Automatic",
-        "mileage": "15 Miles",
-        "year": "2023"
-    },
+  
     {
         "id": 3,
         "name": "C-Class Momentum SUV 4WD",
@@ -109,17 +99,7 @@
         "mileage": "122 Miles",
         "year": "2023"
     },
-    {
-        "id": 4,
-        "name": "Nissan Patrol",
-        "description": " 5.6L V8 engine, 7-speed automatic transmission, and 4-wheel drive",
-        "price": "$85,000",
-        "image": "assets/nissan-class.jpg",
-        "fuel": "Petrol",
-        "transmission": "Automatic",
-        "mileage": "60 Miles",
-        "year": "2023"
-    },
+   
     {
         "id": 4,
         "name": "BMW M2",
