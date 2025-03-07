@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "name": "Toyota Camry New",
+        "description": "2.5L 4-cylinder engine, 16-valve DOHC hybrid,,",
+        "price": "$40,000",
+        "image": "assets/camry.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "30 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 2,
+        "name": "T-Cross Momentum SUV 4WD",
+        "description": "4.0L PowerPulse Momentum SUV 4WD...",
+        "price": "$17,000",
+        "image": "assets/T-cross.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "15 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 3,
+        "name": "C-Class Momentum SUV 4WD",
+        "description": "4.0L PowerPulse Momentum SUV 4WD...",
+        "price": "$150,000",
+        "image": "assets/C-class.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "50 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "BMW 3 series",
+        "description": "2.5 L, inline 6-cylinder",
+        "price": "$85,000",
+        "image": "assets/bimmer.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "61,000 Miles",
+        "year": "2004"
+    },
+    {
+        "id": 4,
+        "name": "Mazda axela",
+        "description": "2.0 Sports has a SKYACTIV-G inline-four engine",
+        "price": "$85,000",
+        "image": "assets/sedan.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "90 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Mercedes benz C200",
+        "description": "2.0 L intercooled turbo gas engine",
+        "price": "$85,000",
+        "image": "assets/benz.jpeg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "100 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Audi A5 S-Line",
+        "description": "2.0 L intercooled turbo gas I-4 engine",
+        "price": "$85,000",
+        "image": "assets/audi6.jfif",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "160 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Porche Cayenne",
+        "description": "4.0L PowerPulse Momentum SUV 4WD...",
+        "price": "$85,000",
+        "image": "assets/porche.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "44 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Audi A3",
+        "description": "2.0 L intercooled turbo gas I-4 engine",
+        "price": "$85,000",
+        "image": "assets/audi1.jfif",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "120 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Audi A5 S-line",
+        "description": "2.0 L intercooled turbo gas/electric I-4 engine",
+        "price": "$85,000",
+        "image": "assets/audi-mountain.jfif",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "122 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Nissan Patrol",
+        "description": " 5.6L V8 engine, 7-speed automatic transmission, and 4-wheel drive",
+        "price": "$85,000",
+        "image": "assets/nissan-class.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "60 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "BMW M2",
+        "description": "3.0-liter twin-turbocharged engine",
+        "price": "$85,000",
+        "image": "assets/bima.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "120 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Audi A4 S-line",
+        "description": "2.0 L intercooled turbo gas I-4 engine ",
+        "price": "$85,000",
+        "image": "assets/S-series.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "120 Miles",
+        "year": "2023"
+    },
+    {
+        "id": 4,
+        "name": "Audi Quattro",
+        "description": "2.134 L, 5-cylinder, turbo, 305 hp, 258 lb-ft of torque ",
+        "price": "$85,000",
+        "image": "assets/sp.jpg",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "mileage": "200 Miles",
+        "year": "2023"
+    }
+]
+
+

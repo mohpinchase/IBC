@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover your perfect car at Imports By Clevik! Explore new and used cars, special financing offers, and trade-in options. Contact us today for the best deals!">
+    <meta name="description" content="Explore imported cars, luxury vehicles, and foreign used cars at Imports by Clevik. Find premium options with top deals. Contact us for importation and purchase today!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imports.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Imports by Clevik</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="assets/imports.png" alt="Imports by clevik Logo">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="view-all.html">View All</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <!-- <div class="contact">+254 713932835</div> -->
+                <div class="auth">
+                    <!-- <a href="#" class="sign-in">Sign In</a> -->
+                    <a href="view-all.html" class="submit-btn">Buy a Car</a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-close">X</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="view-all.html">View All</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Find your perfect car with <span class="white">trusted deals, transparent pricing </span> and <br><span class="white"> expert-certified </span> <br>quality—shop confidently today!</h1>
+            <!-- <h1>Find Your Perfect New or Used Car</h1> -->
+            <div class="search-bar">
+                <select name="makes" id="makeFilter">
+                    <option value="">Select Makes</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="T-Cross">T-Cross</option>
+                    <option value="C-Class">C-Class</option>
+                    <option value="Nissan">Nissan</option>
+                </select>
+                <select name="models" id="modelFilter">
+                    <option value="">Select Models</option>
+                    <option value="Camry">Camry</option>
+                    <option value="Momentum">Momentum</option>
+                    <option value="QLC">QLC</option>
+                </select>
+                <select name="year" id="yearFilter">
+                    <option value="">Year</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select>
+                <select name="price" id="priceFilter">
+                    <option value="">As Per Price</option>
+                    <option value="0-50000">$0 - $50,000</option>
+                    <option value="50000-100000">$50,000 - $100,000</option>
+                    <option value="100000+">$100,000+</option>
+                </select>
+                <button>Search</button>
+            </div>
+        </section>
+
+        <section class="browse-by-type">
+            <h2>Browse by Type</h2>
+            <div class="car-types">
+                <div class="car-type">
+                    <img src="assets/suv.jpg" alt="SUV">
+                    <h3>SUVs</h3>
+                </div>
+                <div class="car-type">
+                    <img src="assets/sedan.jpg" alt="Sedan">
+                    <h3>Sedans</h3>
+                </div>
+                <div class="car-type">
+                    <img src="assets/hatchback.webp" alt="Hatchback">
+                    <h3>Hatchback</h3>
+                </div>
+                <div class="car-type">
+                    <img src="assets/electric.jpg" alt="Zero Emission">
+                    <h3>0-emission Cars</h3>
+                </div>
+                <div class="car-type">
+                    <img src="assets/convertible.jpg" alt="Convertible">
+                    <h3>Convertible</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us" id="about">
+            <h2>Why Choose Us?</h2>
+            <div class="reasons">
+                <div class="reason">
+                    <img src="assets/finance.png" alt="Finance Icon">
+                    <h3>Special Financing Offers</h3>
+                    <p>Our stress-free finance department that can find solutions to save you money.</p>
+                </div>
+                <div class="reason">
+                    <img src="assets/trusted.png" alt="Trusted Icon">
+                    <h3>Trusted Car Dealership</h3>
+                    <p>Trusted expert car service—ensuring every vehicle is inspected, maintained, and ready for the road!</p>
+                </div>
+                <div class="reason">
+                    <img src="assets/transparency.png" alt="Transparent Icon">
+                    <h3>Transparent Pricing</h3>
+                    <p>Upfront, no-hidden fees pricing—what you see is what you pay. 100% transparent and fair deals!</p>
+                </div>
+                <div class="reason">
+                    <img src="assets/carssss.png" alt="Service Icon">
+                    <h3>Expert Car Service</h3>
+                    <p>Top-tier expert car service—trusted professionals, quality maintenance, and reliable repairs for every ride!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-listings">
+            <h2>Featured Listings</h2>
+            <div class="listings-grid" id="featuredListings">
+                <!-- Listings will be dynamically inserted here -->
+            </div>
+            <div class="listing-options">
+                <span>New Cars</span> | <span>Used Cars</span> | <span>In Stock</span>
+                <a href="view-all.html" class="view-all">View All</a>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="cta-container">
+                <div class="cta-image">
+                    <img src="assets/trade.jpg" alt="Trade-In Car">
+                </div>
+                <div class="cta-content">
+                    <h2 class="f">Get A Fair Price For Your Trade-In</h2>
+                    <p>Trade in your old car and get the best value with BoxCars. Start your journey today!</p>
+                    <a href="#" class="cta-button">Trade Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us" id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any inquiries or support.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter Subscription</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>crafted with <span>&#x2665;&#xfe0f</span>by <a href="https://kagiri.netlify.app/">KAGIRI PETERSON</a></p>
+            <p>© <span id="current-year"></span> <strong>IMPORTS BY CLEVIK</strong>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
