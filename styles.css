@@ -201,7 +201,7 @@ header {
     position: relative;
     z-index: 2; /* Ensure text is above the overlay */
 }
-.hero p {
+.hero .p {
     font-size: 26px;
     margin-bottom: 20px;
     position: relative;
